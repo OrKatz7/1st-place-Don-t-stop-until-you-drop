@@ -1,4 +1,8 @@
 # 1st-place-Don't-stop-until-you-drop
+## how to run
+1. run train_p2_swin_large_patch4_window12_384.ipynb
+2. run train_p2_swin_base_patch4_window12_384.ipynb
+3. run inferance_swin_large_patch4_window12_384-final.ipynb
 # TL;DR
 
 1. swin transform (large and base) image size 384
