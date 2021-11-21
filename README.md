@@ -1,11 +1,12 @@
 # 1st-place-Don't-stop-until-you-drop
 # TL;DR
-## model - swin transform (large and base) image size 384
-## 5-fold class blanced
-## soft transforms
+
+1. swin transform (large and base) image size 384
+2. 5-fold class blanced
+3. soft transforms
 '''
 
-def get_transforms(*, data):
+
     
     if data == 'train':
         return Compose([
