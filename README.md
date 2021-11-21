@@ -5,8 +5,7 @@
 2. 5-fold class blanced
 3. soft transforms
 '''
-
-
+def get_transforms(*, data):
     
     if data == 'train':
         return Compose([
