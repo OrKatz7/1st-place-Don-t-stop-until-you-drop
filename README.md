@@ -1,16 +1,16 @@
-# 1st-place-Don't-stop-until-you-drop
+# 1st place solution don't stop until you drop
 This repository represents open-source research developed by [Seffi Cohen](https://www.linkedin.com/in/seffi-cohen-11182046/), [Niv Goldshlager](https://www.linkedin.com/in/niv-goldshlager/), [Nurit Cohen Inger](https://www.linkedin.com/in/nurit-cohen-inger-265269b2/) and [Or Katz](https://www.linkedin.com/in/or-katz-9ba885114/) ,  for the 1st place solution to the kaggle days championship - Don't stop until you drop!
 
-## train + inferance
+## Train + Inferance
 1. run train_p2_swin_large_patch4_window12_384.ipynb
 2. run train_p2_swin_base_patch4_window12_384.ipynb
 3. run inferance_swin_large_patch4_window12_384-final.ipynb
 # TL;DR
 
-1. swin transform (large and base) image size 384
+1. Swin transform (large and base) image size 384
 2. 5-fold class blanced
-3. scheduler - 'CosineAnnealingWarmRestarts'
-4. soft transforms
+3. Scheduler - 'CosineAnnealingWarmRestarts'
+4. Soft transforms
 ```` 
 def get_transforms(*, data):
     
@@ -42,8 +42,8 @@ def get_transforms(*, data):
             ToTensorV2(),
         ])
 ```` 
-5. ensemble swin-l and swin-b (4 folds from l and 2 from b)
-6. config
+5. Ensemble swin-l and swin-b (4 folds from l and 2 from b)
+6. Config
 ```` 
 class CFG:
     debug=False
@@ -74,7 +74,7 @@ class CFG:
     inference=False
 ```` 
 
-7. results:
+7. Results:
 
 | model | Private Score  | Public Score |
 | --------------- | --------------- | --------------- |
