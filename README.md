@@ -3,18 +3,10 @@ This repository represents open-source research developed by [Seffi Cohen](https
 | model | Private Score  | Public Score |
 | --------------- | --------------- | --------------- |
 | swin-l-5-folds | 0.96369 | 0.95143 |
-| Row 2 Column 1 | Row 2 Column 2 | Row 2 Column 3 |
-| Row 3 Column 1 | Row 3 Column 2 | Row 3 Column 3 |
+| swin-b-5-folds | 0.95379| 0.94260 |
+| ensemble | 0.96039 | 0.95805 |
 
-|  |  | Public Score | Use |
-| --- | :-- | --: | :-: |
-
-| model Header | Private Score | Public Score |
-| --- | :-- | --: | :-: |
- |  |Public Score 
- |  | 
-swin-b-5-folds | 0.95379 | 0.94260
-ensemble | 0.96039 | 0.95805
+ 
 
 ## train + inferance
 1. run train_p2_swin_large_patch4_window12_384.ipynb
