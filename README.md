@@ -73,7 +73,7 @@ class CFG:
     train=True
     inference=False
 ```` 
-7. results
+
 | model Header | Private Score | Public Score |
 | --- | :-- | --: | :-: |
 
