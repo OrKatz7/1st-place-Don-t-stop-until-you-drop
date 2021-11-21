@@ -82,3 +82,7 @@ class CFG:
 | swin-b-5-folds | 0.95379| 0.94260 |
 | ensemble | 0.96039 | **0.95805** |
 
+# References
+```
+https://www.kaggle.com/yasufuminakama/cassava-resnext50-32x4d-starter-training
+```
