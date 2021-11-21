@@ -1,18 +1,18 @@
 # 1st-place-Don't-stop-until-you-drop
 This repository represents open-source research developed by [Seffi Cohen](https://www.linkedin.com/in/seffi-cohen-11182046/), [Niv Goldshlager](https://www.linkedin.com/in/niv-goldshlager/), [Nurit Cohen Inger](https://www.linkedin.com/in/nurit-cohen-inger-265269b2/) and [Or Katz](https://www.linkedin.com/in/or-katz-9ba885114/) ,  for the 1st place solution to the kaggle days championship - Don't stop until you drop!
-| Column 1 Header | Column 2 Header | Column 3 Header |
+| model | Private Score  | Public Score |
 | --------------- | --------------- | --------------- |
-| Row 1 Column 1 | Row 1 Column 2 | Row 1 Column 3 |
+| swin-l-5-folds | 0.96369 | 0.95143 |
 | Row 2 Column 1 | Row 2 Column 2 | Row 2 Column 3 |
 | Row 3 Column 1 | Row 3 Column 2 | Row 3 Column 3 |
 
-| model | Private Score  | Public Score | Use |
+|  |  | Public Score | Use |
 | --- | :-- | --: | :-: |
 
 | model Header | Private Score | Public Score |
 | --- | :-- | --: | :-: |
  |  |Public Score 
-swin-l-5-folds | 0.96369 | 0.95143
+ |  | 
 swin-b-5-folds | 0.95379 | 0.94260
 ensemble | 0.96039 | 0.95805
 
