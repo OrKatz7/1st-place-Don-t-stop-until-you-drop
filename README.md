@@ -75,10 +75,9 @@ class CFG:
 ```` 
 
 7. results:
-8. 
 | model | Private Score  | Public Score |
 | --------------- | --------------- | --------------- |
-| swin-l-5-folds | 0.96369 | 0.95143 |
+| swin-l-5-folds | 0.96699 | 0.95364 |
 | swin-b-5-folds | 0.95379| 0.94260 |
-| ensemble | 0.96039 | 0.95805 |
+| ensemble | *0.96039* | 0.95805 |
 
