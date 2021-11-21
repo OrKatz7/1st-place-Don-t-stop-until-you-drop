@@ -74,7 +74,6 @@ class CFG:
     inference=False
 ```` 
 7. results
-
 | model Header | Private Score | Public Score |
 | --- | :-- | --: | :-: |
 
