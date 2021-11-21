@@ -73,3 +73,9 @@ class CFG:
     train=True
     inference=False
 ```` 
+7. results
+| model | rivate Score |Public Score |
+| --- | --- | --- |
+| swin-l-5-folds | 0.96369 | 0.95143 |
+| swin-b-5-folds | 0.95379 | 0.94260 |
+| ensemble | 0.96039 | 0.95805 |
