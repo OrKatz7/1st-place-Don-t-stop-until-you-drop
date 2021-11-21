@@ -3,7 +3,8 @@
 
 1. swin transform (large and base) image size 384
 2. 5-fold class blanced
-3. soft transforms
+3. scheduler - 'CosineAnnealingWarmRestarts'
+4. soft transforms
 ```` 
 def get_transforms(*, data):
     
@@ -35,3 +36,4 @@ def get_transforms(*, data):
             ToTensorV2(),
         ])
 ```` 
+5. ensemble swin-l and swin-b (4 folds from l and 2 from b)
