@@ -37,3 +37,33 @@ def get_transforms(*, data):
         ])
 ```` 
 5. ensemble swin-l and swin-b (4 folds from l and 2 from b)
+6. config
+```` 
+class CFG:
+    debug=False
+    apex=False
+    print_freq=100
+    num_workers=8
+    model_name='swin_large_patch4_window12_384'
+    size=384
+    scheduler='CosineAnnealingWarmRestarts' # ['ReduceLROnPlateau', 'CosineAnnealingLR', 'CosineAnnealingWarmRestarts']
+    epochs=8
+    #factor=0.2 # ReduceLROnPlateau
+    #patience=4 # ReduceLROnPlateau
+    #eps=1e-6 # ReduceLROnPlateau
+    #T_max=10 # CosineAnnealingLR
+    T_0=10 # CosineAnnealingWarmRestarts
+    lr=1e-4
+    min_lr=1e-6
+    batch_size=12
+    weight_decay=1e-6
+    gradient_accumulation_steps=1
+    max_grad_norm=1000
+    seed=42
+    target_size=6
+    target_col='class_6'
+    n_fold=5
+    trn_fold=[0, 1, 2, 3, 4]
+    train=True
+    inference=False
+```` 
